@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+"""
+Project: Modular Python Script Template
+Description: Just plug in your def functions and run!
+"""
+
 import argparse
 import sys
 from typing import Optional
@@ -44,17 +49,15 @@ def parse_arguments() -> argparse.Namespace:
 def main() -> None:
     """Main execution flow - sob ekhane automatic connect thakbe."""
     try:
-        # Arguments parse kora hochhe
         args = parse_arguments()
-        
         print("--- 🚀 Script Started Successfully ---")
         
-        # --- 1. Function 1 Call kora hochhe ---
-        my_first_function(name=args.name, repeat=3)
+        # ==========================================
+        # TOMAR NOTUN FUNCTION GULO EKMANE CALL KORBE
+        # ==========================================
         
-        # --- 2. Function 2 Call kora hochhe ---
-        computed_value = my_second_function(number=args.num)
-        print(f"Computed Result from Function 2: {computed_value}")
+        result = tomar_notun_function(args.name)
+        print(result)
         
         print("--- ✨ Script Finished Successfully ---")
         
