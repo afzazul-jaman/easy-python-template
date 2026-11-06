@@ -55,7 +55,7 @@ def main() -> None:
         # ==========================================
         # TOMAR NOTUN FUNCTION GULO EKMANE CALL KORBE
         # ==========================================
-        
+
         result = tomar_notun_function(args.name)
         print(result)
         
@@ -70,3 +70,20 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+"" USE THIS PROMPT TO GENERATE FUNCITONS ""
+
+"""
+Ami amar existing Python template-e boshanor jonno customized functions chai.
+
+Amar structure-er requirements:
+1. Amar requirement onujayi def function(s) generate kore dao.
+2. Template-er `main()` function-er bhitore kon kon function call korte hobe ebong ki ki arguments pass korte hobe, ta shoho full main() block-ta likhe dao.
+3. Code-e type hinting ebong simple docstring maintain koro.
+
+--------------------------------------------------
+📌 AMAR REQUIREMENTS:
+[Tomar requirement ekhane likhbe]
+--------------------------------------------------
+"""
